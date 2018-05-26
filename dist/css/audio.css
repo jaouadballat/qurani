@@ -495,3 +495,24 @@ button {
 @keyframes spin {
   100% { transform: rotate(360deg) translate(-50%,-50%); }
 }
+
+@media only screen and (max-width: 790px) {
+  div#app {
+    display: flex;
+    flex-direction: column-reverse;
+}
+div#player {
+    margin-top: 30px;
+}
+.player {
+  width: 16em;
+    margin: auto;
+}
+#select {
+
+    width: 280px;
+}
+div#app {
+    margin-top: 240px;
+}
+}
